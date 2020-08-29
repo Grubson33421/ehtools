@@ -58,7 +58,7 @@ a WPA handshake in a matter of seconds. Plus, it's easy to install, set up, and 
 
 ***
 
-# System requirements 
+## System requirements 
 
 * Ehtools Framework only supports two OS.
 
@@ -75,9 +75,7 @@ All ehtools files and folders will be copied to /root,
 your system Ehtools Framework needs full root access!
 ```
 
-***
-
-# Selecting framework version
+## Selecting framework version
 
 ```
 After executing install.sh it will be ask you 
@@ -88,9 +86,7 @@ If you bought Ehtools Framework PRO, select PRO.
 
 > ./install.sh
     
-***
-    
-# Ehtools Framework PRO activation
+## Ehtools Framework PRO activation
 
 ```
 This key you can buy on the ehtools site! This key is used to activate 
@@ -150,183 +146,6 @@ hacking tool like Pupy by just selecting from one of the menu options!
 ```
 
 ![ehtools-yellow](https://user-images.githubusercontent.com/54115104/86511984-92c9c780-be06-11ea-9888-9179447529b8.png)
-
-***
-
-# Ehtools Framework utilities
-
-## ehtmod | <img src="https://img.shields.io/badge/utility-ehtmod-blue.svg">
-
-* ehtmod (ehtools modules) is an utility that adds permissions or the ability to control the Ehtools Framework modules.
- 
-> ehtmod -h
-
-```
-Usage: ehtmod [option] <arguments>
-
-  -i, --install         Install ehtools modules.
-  -t, --take    <name>  Take a new ehtools modules snapshot.
-  -r, --restore <name>  Restore saved ehtools modules snapshot.
-  -d, --delete  <name>  Delete saved ehtools modules snapshot.
-  -u, --uninstall       Uninstall ehtools modules.
-  -h, --help            Give this help list.
-```
-         
-* To install ehtools modules you need to execute the following command.
-
-```
-The ehtools install.sh will ask you to "install" or "not 
-install" ehtools modules and if you answered "not install" and 
-want to install them, run the following command!
-```
-
-> ehtmod -i
-
-### Ehtools Modules Snapshot (EMS) 
-
-```
-EMS is a saved ehtools modules data, you can 
-take it using the ehtmod utility and restore it.
-```
-
-* To take ehtools modules snapshot you need to execute the following command. You need to enter the name of the ehtools modules snapshot you want to take (example: snapshot1).
-
-> ehtmod -t snapshot1
-
-### Ehtools Modules Restoration (EMR) 
-
-```
-EMR is an operation that removing modules and restoring it from 
-the saved ehtools modules snapshot, you can restore it using the 
-ehtmod utility but ESR will remove all your old ehtools modules data!
-```
-
-* To restore ehtools modules snapshot you need to execute the following command. You need to enter the name of the saved ehtools modules snapshot (example: snapshot1).
-
-> ehtmod -r snapshot1
-    
-## ehtkey | <img src="https://img.shields.io/badge/utility-ehtkey-brown.svg">
-
-* ehtkey (ehtools key) is an utility that allows you to change your ehtools config key (ehtools config/boot key) and rewrite /etc/ehtools/.config.
-
-> ehtkey
-
-```
-Usage: ehtkey [option] <arguments>
-
-  -c, --change <old_key> <new_key>  Change ehtools config key.
-  -h, --help                        Give this help list.
-```
-
-* To change ehtools config key you need to execute the following command. You need to enter your old ehtools config key (example: 1001) and after this enter your new ehtools config key (example: 2002).
-
-> ehtkey -c 1001 2002
-
-## ehtapp | <img src="https://img.shields.io/badge/utility-ehtapp-red.svg">
-
-* ehtapp (ehtools application) is an utility that allows you to configure ehtools application, for example creating ehtools desktop application.
- 
-> ehtapp -h
- 
-```
-Usage: ehtapp [option] <arguments>
-
-  -c, --create               Create ehtools application.
-  -d, --desktop <operation>  Create/remove ehtools desktop application.
-  -r, --remove               Remove ehtools application.
-  -h, --help                 Give this help list.
-```
-
-* To create ehtools application you need to execute the following command.
-
-```
-The ehtools install.sh will ask you to "create" or 
-"not create" ehtools application and if you answered "not 
-create" and want to create it, run the following command!
-```
-
-> ehtapp -c
-
-* To create ehtools desktop application you need to execute the following command.
-
-> ehtapp -d create
-
-## epasswd | <img src="https://img.shields.io/badge/utility-epasswd-green.svg">
-
-* epasswd (ehtools password changer) is an utility that allows you to change your ehtools login and password or ehtools root password.
-
-### Changing ehtools login and password
-
-> epasswd
-
-* To change ehtools login and password enter your old ehtools login (example: ehtools) and your old ehtools password (example: sloothe).
-
-> (login)> ehtools
-
-> (password)> sloothe
-
-* After this enter your new ehtools login (example: admin) and your new ehtools password (example: 1234).
-
-> ((new)login)> admin
-
-> ((new)password)> 1234
-
-* Congratulations, you have successfully changed ehtools login and password!
-
-```
-In no case do not forget this password, it will not 
-be restored and you will need to reinstall ehtools!
-```
-
-### Changing ehtools root password
-
-* To cange root password, login to epasswd as ehtools root.
-
-> epasswd
-
-> (login)> root
-
-* After this enter your old ehtools root password (default: toor).
- 
-> (password)> toor
-
-* After this enter your new ehtools root password (example: 1234).
-
-> ((new)password)> 1234
-
-* Congratulations, you have successfully changed ehtools root password!
-
-```
-In no case do not forget this password, it will not 
-be restored and you will have to reinstall ehtools!
-``` 
-***
-    
-# Ehtools Framework protection
-
-![ehtools-login](https://user-images.githubusercontent.com/54115104/86511975-7f1e6100-be06-11ea-8476-a01324898eb2.png)
-
-* Do this using install.sh.
-
-```
-Create login and password using install.sh 
-(example: login: ehtools, password: sloothe)
-```
-
-* Do this when you are going to exit from ehtools.
-
-```
-When you are going to exit framework,
-exit with shortcuts - 0 or exit. 
-```
-
-* Do not do this when you are going to exit from ehtools.
-
-``` 
-Do not just close ehtools window and 
-do not exit from the Ehtools Framework 
-using Ctrl-C or other exit signals!
-```
 
 ***
 
