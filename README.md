@@ -40,24 +40,6 @@ a WPA handshake in a matter of seconds. Plus, it's easy to install, set up, and 
 
 # Getting started
 
-## Ehtools installation
-
-> cd ehtools
-
-> chmod +x install.sh
-
-> ./install.sh 
-
-## Ehtools uninstallation
-
-**1.** Start Ehtools Framework.
-
-**2.** Open Ehtools Framework settings.
-
-**3.** Select `Uninstall Ehtools Framework`.
-
-***
-
 ## System requirements 
 
 * Ehtools Framework only supports two OS.
@@ -75,6 +57,22 @@ All ehtools files and folders will be copied to /root,
 your system Ehtools Framework needs full root access!
 ```
 
+## Ehtools installation
+
+> cd ehtools
+
+> chmod +x install.sh
+
+> ./install.sh 
+
+## Ehtools uninstallation
+
+**1.** Start Ehtools Framework.
+
+**2.** Open Ehtools Framework settings.
+
+**3.** Select `Uninstall Ehtools Framework`.
+
 ## Selecting framework version
 
 ```
@@ -86,7 +84,7 @@ If you bought Ehtools Framework PRO, select PRO.
 
 > ./install.sh
     
-## Ehtools Framework PRO activation
+## Activating PRO version
 
 ```
 This key you can buy on the ehtools site! This key is used to activate 
