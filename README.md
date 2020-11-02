@@ -3,7 +3,7 @@
 <h3 align="center"><img src="https://user-images.githubusercontent.com/54115104/67109604-8ac6ea80-f1d9-11e9-89c5-ee89ee2fbaa1.png" alt="logo" height="250px"></h3>
                 
 <p align="center">
-  <a href="http://entynetproject.simplesite.com/">
+  <a href="http://entynetproject.netlify.app/">
     <img src="https://img.shields.io/badge/entynetproject-Ivan%20Nikolsky-blue.svg">
   </a> 
   <a href="https://github.com/entynetproject/ehtools/releases">
